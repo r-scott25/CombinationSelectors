@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Times New Roman";
+  background-color: #EDEFEE;
+}
+
+
+/* Adjacent Selector - here, selects the <p> tags that immediately follow an image */
+img + p {
+  color: #495e57;
+  padding-left: 70px;
+  padding-bottom: 20px;
+  font-size: small;
+  font-family: Verdana;
+}

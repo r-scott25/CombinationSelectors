@@ -1,0 +1,16 @@
+body {
+  color: #333333;
+  background-color: #ee9972;
+  font-family: Cambria;
+}
+
+li {
+  list-style-type: none;
+}
+/* Sibling Selector - here, div is the parent, ul is the sibling*/
+div ~ ul {
+  background-color: #edefee;
+  color: #495e57;
+  box-shadow: inset 1px 1px 3px #333333;
+  padding: 10px;
+}
